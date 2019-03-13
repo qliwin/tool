@@ -1,0 +1,21 @@
+{
+    "name": "qliwin/tool",
+    "description": "this is a dev tool",
+    "type": "library",
+    "require": {
+        "php": ">=5.4.0"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "jerry",
+            "email": "qliwin@163.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "Qliwin\\": "src/"
+        }
+    }
+}
